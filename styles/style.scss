@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import "./scss/components/preloader";
+@import "./scss/components/nav";
+@import "./scss/components/hero";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Outfit, Inter, Gilroy, Arial, Helvetica, sans-serif;
+  background-color: #0f0f0f;
+  color: #fefefe;
+}
+
+// scrollbar🎐
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.35);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.15) transparent;
+}
+
+// scrollbar ends 🎐
+
+// link 🎐
+
+a.link {
+  color: white;
+  text-decoration: none;
+  border-bottom: 0.5px solid white;
+}
+
+// link end 🎐
+
+// active links🎐
+
+// .active-link {
+//   background-color: #1a1a1a;
+//   color: #fefefe;
+//   border-radius: 0.5rem;
+// }
+
+// active links end 🎐
+
+// content
